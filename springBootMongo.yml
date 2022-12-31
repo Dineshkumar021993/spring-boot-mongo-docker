@@ -62,7 +62,7 @@ spec:
       - name: springappcontainer
         image: dineshkumar021993/spring-boot-mongo
         ports:
-        - containerPort: 8080
+        - containerPort: 8085
         env:
         - name: MONGO_DB_USERNAME
           valueFrom:
